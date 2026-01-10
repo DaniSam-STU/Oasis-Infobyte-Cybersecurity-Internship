@@ -17,8 +17,8 @@ The objective of this task is to perform a basic network scan using Nmap in orde
 ## Target Details
 - Target IP Address: 127.0.0.1 (localhost)
 - Scan Type: Service Version Detection
----
-The scan was performed on the local system for educational and ethical purposes only.
+  
+## The scan was performed on the local system for educational and ethical purposes only.
 
 ---
 
