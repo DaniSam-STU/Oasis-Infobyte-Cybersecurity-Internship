@@ -13,7 +13,7 @@ Demonstration of SQL Injection vulnerability in Damn Vulnerable Web Application 
 
 ### 1. DVWA Setup & Configuration
 - Launched DVWA via Docker container
-- Accessed web interface at http://localhost
+- Accessed web interface at http://localhost:8080
 - Set security level to LOW via DVWA Security page
 
 ### 2. SQL Injection Tests
