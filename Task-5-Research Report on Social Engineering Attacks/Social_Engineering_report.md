@@ -168,15 +168,15 @@ Using fear to manipulate users into downloading malware. Examples:
 ### 6.1 Organizational Measures
 
 #### Security Awareness Program
-```
+
 Components of Effective Training:
-├── Regular Sessions (Quarterly minimum)
-├── Role-Specific Content
-├── Simulated Attacks
-├── Measurable Metrics
-├── Positive Reinforcement
-└── Continuous Improvement
-```
+- Regular Sessions (Quarterly minimum)
+- Role-Specific Content
+- Simulated Attacks
+- Measurable Metrics
+- Positive Reinforcement
+- Continuous Improvement
+
 
 **Best Practices:**
 - **Engaging Content:** Gamification, interactive modules
@@ -193,14 +193,14 @@ Components of Effective Training:
 ### 6.2 Technical Controls
 
 #### Email Security
-```yaml
+
 Essential Controls:
   - Advanced Threat Protection
   - URL Rewriting/Link Analysis
   - Attachment Sandboxing
   - Anti-Spoofing (SPF, DKIM, DMARC)
   - Impersonation Protection
-```
+
 
 #### Endpoint Protection
 - **Application Whitelisting:** Allow only approved software
@@ -223,7 +223,7 @@ Essential Controls:
 4. **Open Environment:** Encouraging questions and reporting
 
 #### Specific Training for Common Scenarios
-```
+
 Training Modules Should Include:
 • Recognizing Phishing Attempts
 • Verifying Unusual Requests
@@ -231,7 +231,7 @@ Training Modules Should Include:
 • Physical Security Awareness
 • Password/ Credential Protection
 • Incident Reporting Procedures
-```
+
 
 ---
 
@@ -249,14 +249,14 @@ Training Modules Should Include:
 - **Containment:** Immediate actions to prevent spread
 
 ### 7.3 Containment and Eradication
-```
+
 Immediate Actions:
 1. Disable compromised accounts
 2. Reset affected credentials
 3. Isolate infected systems
 4. Revoke unauthorized access
 5. Block malicious domains/IPs
-```
+
 
 ### 7.4 Recovery and Post-Incident
 - **System Restoration:** From clean backups
