@@ -43,7 +43,7 @@ The report is structured into the following sections:
 ---
 
 ## **📚 References**
-All sources and citations are listed in `references.txt` and within the report itself. Key references include NIST, OWASP, Cisco Threat Reports, and real-world case studies from Verizon DBIR and SANS Institute.
+All sources and citations are listed in `References.md` and within the report itself. Key references include NIST, OWASP, Cisco Threat Reports, and real-world case studies from Verizon DBIR and SANS Institute.
 
 ---
 
