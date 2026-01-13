@@ -10,3 +10,7 @@ Research and document common social engineering attacks such as phishing, pretex
 ## Outcome
 This report explains major social engineering techniques, their impact on organizations, and best practices to prevent such attacks.
 
+## **📬 Submission Details**
+- **Intern:** [Deepanshu Semwal]
+- **Organization:** Oasis Infobyte
+
