@@ -107,43 +107,6 @@ In 2015, a **DNS spoofing attack** targeted several Brazilian banks. Attackers c
 
 ---
 
-## **5. Additional Common Network Security Threats (Brief Overview)**
-
-While DoS, MITM, and spoofing are focal points, other significant threats include:
-
-- **Phishing:** Deceptive attempts to obtain sensitive information via fraudulent emails or websites.
-- **Malware:** Malicious software such as viruses, worms, ransomware, and spyware.
-- **Insider Threats:** Malicious or negligent actions by employees or trusted individuals.
-- **Zero-Day Exploits:** Attacks targeting vulnerabilities unknown to vendors or the public.
-
----
-
-## **6. Comprehensive Mitigation Framework**
-
-To defend against the evolving threat landscape, organizations should adopt a **layered security approach**:
-
-1. **Preventive Controls:**
-   - Firewalls, intrusion prevention systems (IPS), and antivirus software.
-   - Strong authentication mechanisms (MFA, biometrics).
-   - Regular software updates and patch management.
-
-2. **Detective Controls:**
-   - Security Information and Event Management (SIEM) systems.
-   - Network traffic analysis and anomaly detection.
-   - Regular vulnerability assessments and penetration testing.
-
-3. **Corrective Controls:**
-   - Incident response plans and disaster recovery procedures.
-   - Data backups and restoration capabilities.
-   - Legal and regulatory compliance measures.
-
-4. **Awareness and Training:**
-   - Continuous cybersecurity education for employees.
-   - Simulated phishing exercises and security drills.
-   - Clear security policies and acceptable use agreements.
-
----
-
 ## **7. Conclusion**
 
 Network security threats such as DoS/DDoS, MITM, and spoofing attacks pose significant risks to organizations of all sizes. Understanding how these attacks work, their potential impact, and effective mitigation strategies is essential for building resilient and secure network infrastructures. By implementing a combination of technical controls, security best practices, and ongoing user education, organizations can reduce their vulnerability to these threats and respond effectively when incidents occur. As cyber threats continue to evolve, a proactive and adaptive security posture will remain crucial for safeguarding digital assets and maintaining trust in an interconnected world.
