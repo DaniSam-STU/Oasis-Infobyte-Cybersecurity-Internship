@@ -19,3 +19,22 @@ The report is structured into the following sections:
 
 ---
 
+## **🎯 Key Takeaways**
+- **DoS/DDoS:** Overwhelm systems with traffic; mitigated with filtering, scaling, and DDoS protection services.
+- **MITM:** Intercept communications; prevented with encryption, VPNs, and certificate validation.
+- **Spoofing:** Masquerade as trusted entities; countered with DNSSEC, email authentication, and network monitoring.
+- **Holistic Security:** A layered approach combining technology, policies, and user awareness is essential.
+
+---
+
+## **🛠️ Tools & Frameworks Referenced**
+- **NIST Cybersecurity Framework**
+- **OWASP Top Ten**
+- **Cloudflare / AWS Shield** (for DDoS mitigation)
+- **SPF, DKIM, DMARC** (for email security)
+- **DNSSEC** (for DNS integrity)
+
+---
+## **📬 Submission Details**
+- **Intern:** [Deepanshu Semwal]
+- **Organization:** Oasis Infobyte
