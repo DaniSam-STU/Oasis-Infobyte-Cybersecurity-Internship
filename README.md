@@ -30,11 +30,6 @@ This repository documents my 1-month Cybersecurity Internship at **Oasis Infobyt
 | 3 | SQL Injection on DVWA (Low Security) | Beginner | 
 | 4 | Research Report: Common Network Security Threats | Beginner | 
 | 5 | Research Report: Social Engineering Attacks | Beginner |
-| 6 | Research Report: Importance of Patch Management | Beginner | 
-| 7 | Vulnerability Scanning with Nikto | Intermediate | 
-| 8 | Capture Network Traffic with Wireshark | Intermediate | 
-| 9 | Exploit SQL Injection in Web Application | Advanced | 
-| 10 | Network Security Assessment Report | Advanced | 
 
 ---
 
