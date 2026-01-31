@@ -3,20 +3,57 @@
 ## Overview
 Demonstration of SQL Injection vulnerability in Damn Vulnerable Web Application (DVWA) with security level set to LOW.
 
-## Environment Setup
-- **OS**: Kali Linux 2024.3
-- **DVWA**: Version 1.0.1 (Docker container)
-- **Security Level**: Low
-- **Database**: MySQL
+## 📋 Prerequisites
+- **Operating System**: Windows 10/11
+- **Software**: XAMPP (Apache + MySQL + PHP)
+- **Browser**: Chrome/Firefox/Edge
+- **Internet Connection**: For downloading DVWA
 
-## Steps Performed
+## 🚀 Quick Start Guide
 
-### 1. DVWA Setup & Configuration
-- Launched DVWA via Docker container
-- Accessed web interface at http://localhost:8080
-- Set security level to LOW via DVWA Security page
+### Step 1: Install XAMPP
+1. Download XAMPP from: https://www.apachefriends.org/download.html
+2. Run the installer with default settings
+3. Launch **XAMPP Control Panel**
 
-### 2. SQL Injection Tests
+### Step 2: Start Required Services
+In XAMPP Control Panel:
+- Click **Start** for **Apache**
+- Click **Start** for **MySQL**
+- Both should turn **GREEN**
+
+### Step 3: Install DVWA
+```powershell
+# Download DVWA manually:
+# 1. Go to: https://github.com/digininja/DVWA/archive/master.zip
+# 2. Extract to: C:\xampp\htdocs\dvwa
+```
+### Step 4: Configure DVWA
+- Navigate to: **C:\xampp\htdocs\dvwa\config**
+- Copy *config.inc.php.dist* to **config.inc.php**
+- Edit *config.inc.php* with these settings:
+
+```php
+$_DVWA[ 'db_user' ] = 'root';
+$_DVWA[ 'db_password' ] = '';  # Leave empty for XAMPP default
+$_DVWA[ 'db_server' ] = '127.0.0.1';
+$_DVWA[ 'db_database' ] = 'dvwa';
+```
+### Step 5: Access DVWA
+- Open browser
+- Go to: http://localhost/dvwa/
+- Click "Create / Reset Database"
+- Login with:
+```
+Username: admin
+Password: password
+```
+### Step 6: Set Security Level to LOW
+- After login, click "DVWA Security" in left sidebar
+- Select "Low" from dropdown
+- Click "Submit"
+
+## SQL Injection Demonstration
 
 #### Test 1: Vulnerability Detection
 - **Payload**: `'`
